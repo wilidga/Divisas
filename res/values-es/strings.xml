@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coin Change</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="IngreseMonto">Ingrese Monto</string>
+    <string name="compra">Compra</string>
+    <string name="venta">Venta</string>
+    <string name="calcular">Convertir</string>
+    <string name="saltos"></string>
+    <string name="resultado1"></string>
+    <string name="resultadoCompra">Resultado Compra</string>
+    <string name="resultadoventa">Resultado Venta</string>
+    <string name="menu_settings">Configurar</string>
+    <string name="menu_about">Acerca de..</string>
+    <string name="menu_nuevo">Configurar2</string>
+    <string name="action_bar_share_with">Menu</string>
+    <string name="own">Wilman Garcia De León</string>
+    <string name="contac">wilidga@gmail.com</string>
+    <string name="Error1">Ingrese monto a convertir</string>
+    <string name="prueba">Prueba</string>
+    <string name="moneda">Monedas</string>
+    <string name="moneda1">About $</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="search_hint">Buscar</string>
+    <string name="Monname">Nombre de Moneda</string>
+    <string name="Monprice">Tipo de Cambio</string>
+    <string name="ingresemonto">Ingrese Monto</string>
+    <string name="nohayred">Sin Conexión</string>    
+    <string name="Network_Settings">Configuraciones de Red</string>
+    <string name="Use_only_Wi_Fi">Usar Solo Wi-Fi</string>
+    <string name="wifi">Wifi</string>
+    <string name="rate">Rate</string>
+    <string name="checkwifi"></string>
+    <string name="msg_yes">Yes</string>  
+    <string name="msg_no">No</string>
+    <string name="msg_facebook">Deseas darle like a nuestra página?</string>
+    <string name="msg_exit">Desea salir de configuraciones?</string>
+    <string name="shareTitle1">Verifica el tipo de cambio con.</string>
+    <string name="shareUrl1"> https://play.google.com/store/apps/details?id=com.vengapps.divisas </string>
+</resources>

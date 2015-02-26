@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item android:id="@+id/share"
+        android:showAsAction="always"
+        android:title="@string/action_bar_share_with"
+       android:icon="@drawable/ic_action_share"
+     />
+    <item android:id="@+id/menuMoneAct"
+        android:showAsAction="always"
+        android:title="@string/moneda" 
+		android:icon="@drawable/refresh"      
+     />  
+      <item android:id="@+id/menuMonedas"
+        android:showAsAction="always"
+        android:title="@string/moneda" 
+		android:icon="@drawable/config"      
+     /> 
+      <item android:id="@+id/menuMonedasCOnf"
+        android:showAsAction="always"
+        android:title="@string/moneda" 
+		android:icon="@drawable/settings"      
+     /> 
+      
+</menu>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Principal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/hello_world"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/Monname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/image"
+            android:text="@string/Monname" />
+
+        <TextView
+            android:id="@+id/Monprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Monname"
+            android:text="@string/Monprice" />
+
+        <EditText
+            android:id="@+id/txt_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Monname"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:ems="10"
+            android:hint="@string/ingresemonto"
+            android:inputType= "numberDecimal">
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListMon"
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        >
+
+    </ListView>
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7795597851552086/4399033858"
+        ads:loadAdOnCreate="true" />
+
+</LinearLayout>
